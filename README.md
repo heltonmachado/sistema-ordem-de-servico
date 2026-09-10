@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # TechFix - Sistema de Gerenciamento de Ordens de Servico
 
 Sistema completo para gerenciamento de ordens de servico em assistencia tecnica de equipamentos eletronicos.
@@ -163,3 +164,7 @@ O sistema funciona mesmo sem o backend Node.js! Se a API nao estiver disponivel,
 ## Licenca
 
 MIT
+=======
+# sistema-ordem-de-servico
+sistema de ordem de serviço 
+>>>>>>> 93d063386fd0e8fd473d3efa84c51c36db4e4714
