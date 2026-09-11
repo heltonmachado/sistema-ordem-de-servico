@@ -87,3 +87,13 @@ async function testConnection() {
 }
 
 module.exports = { pool, query, getClient, testConnection };
+
+
+(async () => {
+  try {
+    const res = await query('SELECT NOW()');
+    console.log('[TechFix DB] Conexão OK:', res.rows[0]);
+  } catch (err) {
+    console.error('[TechFix DB] Falha na conexão:', err.message);
+  }
+})();
